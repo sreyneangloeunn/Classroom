@@ -1,5 +1,7 @@
+import {Student} from "./Student";
+import {Teacher} from "./Teacher";
 
-class Classroom {
+export class Classroom {
   private students: Student[] = [];
   private teachers: Teacher[] = [];
 
@@ -19,3 +21,4 @@ class Classroom {
 }
 
 export default Classroom;
+
